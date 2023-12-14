@@ -26,7 +26,7 @@ function Kidscategory() {
       });
   }, []);
 
-  const NewProduct = KidsProducts.map((product, index) => {
+  const NewProduct =  Object.entries(KidsProducts).map((product, index) => {
     return (
       <Singlekidcategory
         key={index}

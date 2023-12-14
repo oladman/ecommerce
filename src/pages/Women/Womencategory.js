@@ -19,14 +19,14 @@ function Womencategory() {
       )
       .then((res) => {
         setWomenProduct(res.data);
-        console.log(res.data)
+        console.log('dataaaaaaa', res.data)
       })
       .catch((err) => {
         console.log(err);
       });
   }, []);
 
-  const NewProduct = womenProduct.map((product, index) => {
+  const NewProduct = Object.entries(womenProduct).map((product, index) => {
     return (
       <Singlewomencategory
         key={index}
