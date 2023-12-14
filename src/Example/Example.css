@@ -1,0 +1,33 @@
+.grandparent-body{
+
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.children-of-two{
+display: flex;
+
+}
+
+.children-of-two li {
+
+    padding-left: 10px;
+    display: block;
+    text-align: right;
+    border-radius: 20px;
+
+}
+
+.children-three{
+    margin-right: 20px;
+
+}
+
+.search-bar{
+    padding: 10px;
+}

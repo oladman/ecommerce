@@ -1,0 +1,178 @@
+.container{
+    background: url(../public/yeffso.JPG);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+   
+    width: 100%;
+    position: relative;
+    
+
+   
+}
+.leftHome{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    color: #f2f2f2;
+    font-size: 15px;
+    text-align: justify;
+    width: 600px;
+    margin-left: 70px;
+}
+
+
+.rightHome{
+max-width: 500px;
+ height: 100%;
+ position: absolute;
+ border: 25px solid white;
+ right: 0;
+ width: 300px;
+ height: 300px;
+ transform: rotate(-45deg);
+ color: white;
+ text-align: center;
+
+
+}
+
+.image-section{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background: url(../public/yeffso.JPG);
+   background-repeat: no-repeat;
+   background-size: cover;
+  object-position: center;
+    background-color: #445069;
+    position: absolute;
+    transform: rotate(45deg);
+    border: 5px solid #FF52A2;
+    border-radius: 20px;
+    z-index: -999;
+    
+    
+ 
+   
+}
+
+.rightHome >img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+
+
+}
+
+.textOne{
+padding-top: 30px;
+
+}
+
+
+.Text{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+.Button{
+   height: 40px;
+   width: 150px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    background-color:#EA1179;
+    border: none;
+    
+  
+}
+
+.ButtonTwo{
+    height: 40px;
+    width: 150px;
+     border-radius: 5px;
+     font-weight: 700;
+     font-family: 'Nunito', sans-serif;
+     background-color:white;
+     border: 2px solid black;
+     margin-left: 20px;
+   
+ }
+.ButtonTwo:hover{
+background-color:#445069;
+}
+.Button:hover{
+    background-color: red;
+
+}
+
+.ButtonSet{
+    margin-top: 50px;
+}
+
+
+.quote{
+    line-height: 30px;
+    font-weight: 700;
+}
+
+
+
+
+
+@media (max-width:1024px){
+
+    .ButtonSet{
+        margin-top:10px;
+        padding-bottom: 20px;
+    }
+
+    .Button{
+        
+        width: 120px;
+    }
+
+    .ButtonTwo{
+        
+        width: 120px;
+        margin-left: 10px;
+    }
+
+    .leftHome{
+        padding-top: 10px;
+        width: 400px;
+        margin-left: 50px;
+    }
+
+
+    .rightHome{
+        max-width: 500px;
+         height: 100%;
+         position: absolute;
+         border: 20px solid white;
+         right: 0;
+         width: 210px;
+         height: 210px;
+        }
+        .image-section{
+            width: 210px;
+            height: 210px;
+            border-radius: 10px;
+            z-index: -999;
+           
+        }
+
+}
+
+@media (max-width:768px){
+    .container{
+        display: none;
+    }
+}

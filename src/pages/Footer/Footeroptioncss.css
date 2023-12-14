@@ -1,0 +1,33 @@
+.Footeroption{
+    display: flex;
+    
+
+    
+  
+}
+
+.Footer-icon{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:10px;
+}
+
+.Topfooter-Text{
+    font-weight: 700;
+}
+
+
+.Bottomfooter-Text{
+    margin-top: 10px;
+    font-size: 14px
+}
+
+.BottomfooterText{
+    display: flex;
+    flex-direction: column;
+}

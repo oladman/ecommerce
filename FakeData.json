@@ -1,0 +1,99 @@
+{
+    "Products": [
+    {
+        "id":1,
+        "name": "Quality Curio Palm (100%) Leather",
+        "picture": "image1.jpg",
+        "discount": "20% Off",
+        "price": "15,760"
+    },
+
+    {
+        "id":2,
+        "name": "Yeffso Crocodile Skin Black Palm",
+        "picture": "image2.jpg",
+        "discount": "40% Off",
+        "price": "17,500"
+    },
+    {
+        "id":3,
+        "name": "Unisex Brown Soul Palm",
+        "picture": "image3.jpg",
+        "discount": "15% Off",
+        "price": "20,000"
+    },
+    {
+        "id":4,
+        "name":  "Men Classic Half Shoe Slippers",
+        "picture": "image4.jpg",
+        "discount": "5% Off",
+        "price": "16,999"
+    },
+    {
+        "id":5,
+        "name": "Party Half Shoe Quality",
+        "picture": "image5.jpg",
+        "discount": "12% Off",
+        "price": "13,500"
+    },
+    {
+        "id":6,
+        "name": "Unisex Modern All BLack Palm",
+        "picture": "image6.jpg",
+        "discount": "40% Off",
+        "price": "12,980"
+    },
+    {
+        "id":7,
+        "name": "All Brown Weather Palm 100% Quality",
+        "picture": "image7.jpg",
+        "discount": "15% Off",
+        "price": "14,900"
+    },
+    {
+        "id":8,
+        "name": "Women Sexy leg  Shinny palm 100%",
+        "picture": "image8.jpg",
+        "discount": "40% Off",
+        "price": "12,999"
+    },
+    {
+        "id":9,
+        "name": "Women Sexy leg  Shinny palm 100%",
+        "picture": "image9.jpg",
+        "discount": "5% Off",
+        "price": "18,560"
+    },
+    {
+        "id":10,
+        "name": "Unisex Brown Soul Palm",
+        "picture": "image3.jpg",
+        "discount": "15% Off" ,
+        "price":"20,000"
+    },
+    {
+        "id":11,
+        "name": "Yeffso Crocodile Skin Black Palm",
+        "picture": "image2.jpg",
+        "discount": "40% Off",
+       " price": "17,500"
+    },
+    {
+        "id":12,
+        "name":  "Yeffso Crocodile Skin Black Palm",
+        "picture": "image2.jpg",
+        "discount": "40% Off",
+        "price": "17,500"
+    },
+    {
+        "id":13,
+        "name": "Yeffso Crocodile Skin Black Palm",
+        "picture": "image2.jpg",
+       " discount": "40% Off",
+        "price": "17,500"
+    }
+]
+
+
+}
+
