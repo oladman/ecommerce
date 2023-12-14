@@ -3,7 +3,7 @@ import Singlemencategory from "./Singlemencategory";
 import axios from "axios";
 
 function Mencategory() {
-  const [product, setproduct] = useState([]);
+  const [MenProduct, setMenProduct] = useState([]);
 
   useEffect(() => {
     axios
@@ -17,14 +17,15 @@ function Mencategory() {
         }
       )
       .then((res) => {
-        setproduct(res.data);
+        setMenProduct(res.data);
+        console.log(res.data)
       })
       .catch((err) => {
         console.log(err);
       });
   }, []);
 
-  const NewProduct = product.map((product, index) => {
+  const NewProduct = MenProduct.map((product, index) => {
     return (
       <Singlemencategory
         key={index}
