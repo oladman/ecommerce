@@ -26,7 +26,7 @@ function Kids() {
       });
   }, []);
 
-  const NewProduct = KidsProduct.map((product, index) => {
+  const NewProduct = Object.entries(KidsProducts).map((product, index) => {
     return (
       <Kidspanel
         key={index}

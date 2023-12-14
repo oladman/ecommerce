@@ -24,7 +24,7 @@ function Men() {
       });
   }, []);
 
-  const NewProduct = MenProduct.map((product, index) => {
+  const NewProduct = Object.entries(MenProduct).map((product, index) => {
     return (
       <Menpanel
         key={index}

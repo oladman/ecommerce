@@ -25,7 +25,7 @@ function Belts() {
       });
   }, []);
 
-  const NewProduct = Belts.map((product, index) => {
+  const NewProduct = Object.entries(BeltsProducts).map((product, index) => {
     return (
       <Beltspanel
         key={index}
