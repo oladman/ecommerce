@@ -26,7 +26,7 @@ function Womencategory() {
       });
   }, []);
 
-  const NewProduct = Object.entries(womenProduct).map((product, index) => {
+  const NewProduct =womenProduct.map((product, index) => {
     return (
       <Singlewomencategory
         key={index}

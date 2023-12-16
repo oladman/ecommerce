@@ -27,7 +27,7 @@ function Beltscategory() {
       });
   }, []);
 
-  const NewProduct = Object.entries(BeltsProducts).map((product, index) => {
+  const NewProduct = BeltsProducts.map((product, index) => {
     return (
       <Singlebeltcategory
         key={index}
