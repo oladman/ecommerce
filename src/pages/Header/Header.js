@@ -82,10 +82,10 @@ function Header() {
 
             <Link to={"/"} className="logo-text">
               <p className="text-first">
-                <h2>YEFFSO</h2>
+                YEFFSO
               </p>
               <p className="text-second">
-                <h2>FEET</h2>
+                FEET
               </p>
             </Link>
           </div>
@@ -117,8 +117,8 @@ function Header() {
               ) : null}
             </div>
 
-            <p className="middle-header">CATEGORIES</p>
-            <hr className="hr-line-header" style={{ width: "90%" }} />
+            <p className="middle-header">OUR CATEGORIES</p>
+            <hr className="hr-line-header" style={{ width: "100%" }} />
 
             <Link
               className="link-head-style"
@@ -165,7 +165,7 @@ function Header() {
               to="/Kids"
               style={{ textDecoration: "none", color: "white" }}
             >
-              <ChildCareIcon style={{ color: "white", fontSize: "15px" }} />{" "}
+              <ChildCareIcon style={{ color: "white", fontSize: "15px" }} />
               Kids
             </Link>
 
@@ -231,7 +231,7 @@ function Header() {
           <div className="right">
             {role === "Admin" && (
               <div className="admin-style">
-                {" "}
+              
                 <Link
                   to="/Admin"
                   style={{

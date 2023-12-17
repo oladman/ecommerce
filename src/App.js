@@ -37,6 +37,7 @@ import Profile from "./pages/Profile/Profile";
 import Deliveryadress from "./pages/Profile/Deliveryadress";
 import Account from "./pages/Profile/Account";
 import Checkoutsummary from "./pages/Cart/Checkoutsummary";
+import ScrollToTop from "./Components/ScrollToTop";
 
 
 
@@ -115,7 +116,9 @@ function App() {
   const {userid} = useContext(Usercontext)
   return (
     <div className="App">
+     
       <RouterProvider router={router} />
+      
     </div>
   );
 }

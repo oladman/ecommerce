@@ -7,6 +7,9 @@ import Usercontextprovider from "./Context/Usercontext";
 import { PrivateRouteProvider } from "./Context/PrivateRoutecontext";
 import Admincontextprovider from "./Context/Admincontext";
 import UserProfileContextProvider from "./Context/UserProfileContext";
+import ScrollToTop from "./Components/ScrollToTop";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,7 +19,9 @@ root.render(
         <PrivateRouteProvider>
           <Admincontextprovider>
             <UserProfileContextProvider>
+         
               <App />
+            
             </UserProfileContextProvider>
           </Admincontextprovider>
         </PrivateRouteProvider>

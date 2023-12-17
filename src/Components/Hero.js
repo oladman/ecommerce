@@ -7,11 +7,12 @@ import "../Home.css";
 
 function Hero() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplaySpeed: 9000,
     autoplay: true,
     pauseOnHover: false,
   };

@@ -510,13 +510,14 @@
   margin-right: 20px;
 }
 .img-Carous-style {
-  height: 350px;
+  max-height: 300px;
   object-fit: cover;
   object-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  width: 100%;
 }
 
 .style-crool {
@@ -537,7 +538,6 @@
   display: flex;
   gap: 10px;
   margin-top: 10px;
-
   align-items: center;
   justify-content: center;
  
@@ -549,37 +549,23 @@
   border-radius: 5px;
 }
 
-@media (max-width: 640px) {
-  .Pro-bond {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    margin-top: 10px;
-    gap: 20px;
-    padding: 10px;
-  }
-  .Pro-style {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-  .Pro-wrap {
-    margin-left: 0px;
-    font-size: 14px;
-  }
-  .Pro-down {
-    color: grey;
-    margin-top: 5px;
-    font-size: 13px;
-  }
-
-  .protect-class {
-    margin-left: 20px;
-  }
+.call-order{
+  background-color: #ea1179;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  line-height: 24px;
+  text-wrap: nowrap;
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  height: 40px;
 }
+
+
 
 @media (max-width: 989px) {
   .Products-panel {
@@ -648,13 +634,13 @@
   }
 
 .hero-section{
-  margin-top: 150px;
   max-height: 250px;
   gap: 0px;
 
 }
 .img-Carous-style {
-  height: 250px;
+  width: 100%;
+  border-radius: 0;
 }
 
 .sub-hero{
@@ -663,28 +649,15 @@
 
 .style-crool {
   
-  width: 90%;
+  width: 100%;
+  height: 250px;
   align-items: center;
   margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 20px;
   overflow: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   .Page {
@@ -764,4 +737,43 @@
   .Brand-Price {
     font-size: 25px;
   }
+}
+
+@media (max-width: 640px) {
+  .Pro-bond {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 10px;
+    gap: 20px;
+    padding: 10px;
+  }
+  .Pro-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .Pro-wrap {
+    margin-left: 0px;
+    font-size: 14px;
+  }
+  .Pro-down {
+    color: grey;
+    margin-top: 5px;
+    font-size: 13px;
+  }
+
+  .protect-class {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .style-crool {
+    max-height: 150px;
+}
 }

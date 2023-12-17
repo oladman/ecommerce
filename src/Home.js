@@ -8,7 +8,7 @@ import LocalAtmIcon from "@mui/icons-material/LocalAtm";
 import { Link } from "react-router-dom";
 import Homesection from "./Homesection";
 import Products from "./Products/Products";
-import Catlist from "./Catlist";
+import Catlist from "./Components/Catlist";
 import "./Catcss.css";
 import Protection from "./Protection";
 import Mencategory from "./pages/Men/Mencategory";
@@ -28,6 +28,7 @@ function Home() {
 
   return (
     <div className="Home">
+      <div className="call-order"><p>CALL TO ORDER: 09068084773</p></div>
       <div className="hero-section">
         <Hero />
         <div className="sub-hero">
@@ -46,31 +47,31 @@ function Home() {
           style={{ textDecoration: "none", margin: "0", padding: "0" }}
           to="/men"
         >
-          <Catlist catname="Shoes" catimage={"/boot.png"} />
+          <Catlist catname="SHOES" catimage={"/boot.png"} />
         </Link>
         <Link
           style={{ textDecoration: "none", margin: "0", padding: "0" }}
           to="/women"
         >
-          <Catlist catname="Women" catimage={"/women.jpg"} />
+          <Catlist catname="WOMEN" catimage={"/women.jpg"} />
         </Link>
         <Link
           style={{ textDecoration: "none", margin: "0", padding: "0" }}
           to="/belt"
         >
-          <Catlist catname="Belts" catimage={"/belt1.jpg"} />
+          <Catlist catname="BELTS" catimage={"/belt1.jpg"} />
         </Link>
         <Link
           style={{ textDecoration: "none", margin: "0", padding: "0" }}
           to="/kids"
         >
-          <Catlist catname="kids" catimage={"/kidd.jpg"} />
+          <Catlist catname="KIDS" catimage={"/kidd.jpg"} />
         </Link>
         <Link
           style={{ textDecoration: "none", margin: "0", padding: "0" }}
           to="/men"
         >
-          <Catlist catname="Men" catimage={"/palm4.jpg"} />
+          <Catlist catname="MEN" catimage={"/palm4.jpg"} />
         </Link>
       </div>
       {/* --- CATEGORY SECTION COMPONENT END --- */}
