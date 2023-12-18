@@ -46,7 +46,7 @@ function Login() {
           </label>
           <input style={{ padding:'10px'  }}
             type="email" name="email" onChange={e => setRegValue({...RegValue, email: e.target.value})}
-            placeholder="Enter Email Address"
+            placeholder="Email Address"
           /> </div>
            <div className="input-login">
           <label htmlFor="email" id="">
@@ -54,7 +54,7 @@ function Login() {
           </label>
           <input style={{ padding:'10px' }}
             type="password" name="password" onChange={e => setRegValue({...RegValue, password: e.target.value})}
-            placeholder="Enter Password"
+            placeholder="Password"
           /> </div>
           <div className="btn-login-style"> <button className="login-btn">Login</button> </div>
             </form>

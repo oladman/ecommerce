@@ -8,7 +8,7 @@ function MenPanel({id, name, discount, image, amount, product}) {
     const cart = useContext(CartContext);
     const productQuantity = cart.GetProductQuantity(id);
 
-    console.log(product)
+
   return (
     <div className="product">
             <Link to={`/Products/${id}`} style={{ textDecoration:"none", color:'black' }} ><div className="ProductImage">

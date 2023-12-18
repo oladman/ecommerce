@@ -24,21 +24,21 @@ import Hero from "./Components/Hero";
 
 function Home() {
   const { FirstName, email } = useContext(Usercontext);
-  console.log('from backend', FirstName, 'email:', email)
+
 
   return (
     <div className="Home">
-      <div className="call-order"><p>CALL TO ORDER: 09068084773</p></div>
+      <div className="call-order"><p>CALL TO ORDER: 08142622487</p></div>
       <div className="hero-section">
         <Hero />
-        <div className="sub-hero">
+       <div className="new-hero"> <div className="sub-hero">
           <img className="image-caro" src="sidebar1.jpeg" />
           <img className="image-caro" src="caro10.jpeg" />
         </div>
         <div className="sub-hero">
           <img className="image-caro" src="style7.jpeg" />
           <img className="image-caro" src="sidebar2.jpeg" />
-        </div>
+        </div></div>
       </div>
 
       {/* --- CATEGORY SECTION COMPONENT --- */}

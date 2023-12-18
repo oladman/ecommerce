@@ -5,6 +5,7 @@ import CallIcon from "@mui/icons-material/Call";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import Footeroptions from "./Footeroptions";
 import { Link } from "react-router-dom";
+import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 
 function Footer() {
   return (
@@ -48,12 +49,9 @@ function Footer() {
       <div className="Main-Footer">
         <div className="Footer-Header-Style">
           <div className="link-Header">NEED HELP?</div>
-          <Link to="/" className="link" href="#">
-            Contact Us
-          </Link>
-          <Link to="/" className="link" href="#">
-            About Us
-          </Link>
+          <Link className="link" style={{ textDecoration:"none", color:"white" }} to="/contact">Contact Us</Link>
+          <Link className="link" style={{ textDecoration:"none", color:"white" }} to="/about">About Us</Link>
+        
           <Link to="/" a className="link" href="#">
             Careers
           </Link>
@@ -63,9 +61,7 @@ function Footer() {
           <Link to="/" className="link" href="#">
             Forums
           </Link>
-          <Link to="/" className="link" href="#">
-            Terms & Conditions
-          </Link>
+          <Link className="link" style={{ textDecoration:"none", color:"white" }} to="/about">Terms & Conditions</Link>
         </div>
 
         <div className="Footer-Header-Style">
@@ -93,15 +89,11 @@ function Footer() {
           <Link to="/" className="link">
             Buyer Safety Centre
           </Link>
-          <Link to="/" className="link">
-            FAQs
-          </Link>
+          <Link className="link" style={{ textDecoration:"none", color:"white" }} to="/faqs">FAQs</Link>
           <Link to="/" className="link">
             Delivery
           </Link>
-          <Link to="/" className="link">
-            Yeffso Return Policy
-          </Link>
+          <Link className="link" style={{ textDecoration:"none", color:"white" }} to="/return">Return Policy</Link>
           <Link to="/" className="link">
             Digital Services
           </Link>
@@ -118,20 +110,16 @@ function Footer() {
           <Link to="/" className="link">
             Track My Order
           </Link>
+          <Link className="link" style={{ textDecoration:"none", color:"white" }} to="/about">Privacy Policy</Link>
           <Link to="/" className="link">
-            Privacy Policy
-          </Link>
-          <Link to="/" className="link">
-            
             Authentic Items Policy
           </Link>
         </div>
 
         <div className="Footer-Header-Style">
           <div className="link-Header">MAKE MONEY ON YEFFSOFEET</div>
-          <Link className="link" to="/">
-            Become a Yeffso Affiliate{" "}
-          </Link>
+          
+          <Link className="link" style={{ textDecoration:"none", color:"white" }} to="/patner">Become a Yeffso Affiliate</Link>
         </div>
 
         <div className="Footer-Header-Style">
@@ -141,36 +129,35 @@ function Footer() {
       </div>
 
       <p className="hbottom">
-        <span>Copyright © 2023 Yeffsofeet.com. All rights reserved</span>
+        <span>Copyright © 2023 Yeffsofeet. All rights reserved</span>
       </p>
       <p className="hspan">this is some content other</p>
 
-      <div style={{ backgroundColor:'#f2f2f2' }}><div className="Mobile-footer">
-        <h3>Yeffso Online Shopping in Nigeria - Best Shoe Shopping Site </h3>
-
-        <p>
-          Yeffso.com is Nigeria’s number one online Shopping destination.We
-          pride ourselves in having everything you could possibly need for life
-          and living at the best prices than anywhere else. Our access to
-          Original Equipment Manufacturers and premium sellers gives us a wide
-          range of products at very low prices. Some of our popular categories
-          include electronics, mobile phones, computers, fashion, beauty
-          products, home and kitchen, Building and construction materials and a
-          whole lot more from premium brands. Some of our other categories
-          include Food and drinks, automotive and industrial, books, musical
-          equipment, babies and kids items, sports and fitness, to mention a
-          few. To make your shopping experience swift and memorable, there are
-          also added services like gift vouchers, consumer promotion activities
-          across different categories and bulk purchases with hassle-free
-          delivery. Enjoy free shipping rates for certain products and with the
-          bulk purchase option, you can enjoy low shipping rates, discounted
-          prices and flexible payment. When you shop on our platform, you can
-          pay with your debit card or via KongaPay, which is a convenient and
-          secured payment solution. Get the best of lifestyle services online.
-          Don't miss out on the biggest sales online which takes place on
-          special dates yearly.
-        </p>
-      </div> </div>
+      <div>
+        <div className="Mobile-footer">
+          <div className="top-m-footer">
+            <ArrowDropUpIcon  style={{ padding:'0', margin:'0' }}/>
+            <p>TOP OF PAGE</p>
+          </div>
+          <div className="bottom-m-footer">
+            <ul>
+              <li><Link style={{ textDecoration:"none", color:"white" }} to="/about">About Us</Link></li>
+              <li><Link style={{ textDecoration:"none", color:"white" }} to="/contact">Contact Us </Link></li>
+              <li><Link style={{ textDecoration:"none", color:"white" }} to="/contact">Terms & Conditions </Link></li>
+              <li><Link style={{ textDecoration:"none", color:"white" }} to="/returns">Returns</Link></li>
+              <li><Link style={{ textDecoration:"none", color:"white" }} to="/faqs">FAQs</Link></li>
+          
+            </ul>
+            <ul>
+            <li><Link style={{ textDecoration:"none", color:"white" }} to="/profile">Your Account</Link></li>
+            <li><Link style={{ textDecoration:"none", color:"white" }} to="/orders">Your Orders</Link></li>
+            <li><Link style={{ textDecoration:"none", color:"white" }}  to="/privacy">Privacy Policy</Link></li>
+            <li><Link style={{ textDecoration:"none", color:"white" }}  to="/patner">Sell Product on Yeffso</Link></li>
+            <li><Link style={{ textDecoration:"none", color:"white" }} to="/patner">Customer Service</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -310,7 +310,7 @@
   .long-icon {
     background-color: #ea1179;
     color: white;
-    margin: 0;
+    margin: 0 20px 0 0;
     padding: 6px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;

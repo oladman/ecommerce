@@ -38,6 +38,15 @@ import Deliveryadress from "./pages/Profile/Deliveryadress";
 import Account from "./pages/Profile/Account";
 import Checkoutsummary from "./pages/Cart/Checkoutsummary";
 import ScrollToTop from "./Components/ScrollToTop";
+import AboutUs from "./Components/AboutUs";
+import Contact from "./Components/Contact";
+import Terms from "./Components/Terms";
+import Returns from "./Components/Returns";
+import Faqs from "./Components/Faqs";
+import Orders from "./Components/Orders";
+import Privacy from "./Components/Privacy";
+import Patner from "./Components/Patner";
+import Service from "./Components/Service";
 
 
 
@@ -87,6 +96,15 @@ const router = createBrowserRouter(
         <Route path="Cart-list" element={<Cartlist />} />
         <Route path="Products" element={<Products />} />
         <Route path="Products/:id" element={<Products />} />
+        <Route path="about" element={<AboutUs />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="terms" element={<Terms />} />
+        <Route path="returns" element={<Returns />} />
+        <Route path="faqs" element={<Faqs />} />
+        <Route path="orders" element={<Orders />} />
+        <Route path="privacy" element={<Privacy />} />
+        <Route path="patner" element={<Patner />} />
+        <Route path="service" element={<Service />} />
       
         
 

@@ -1,94 +1,86 @@
-.login-covers{
-    background-color: white;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items:center ;
-    justify-content: center;
-    overflow: hidden;
-    
-  
+.login-covers {
+  background-color: white;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
-.image-page-signs{
-    
- width: 300px;
-   overflow: hidden;
-    
+.image-page-signs {
+  max-height: 100px;
+  max-width: 300px;
+  overflow: hidden;
+}
+.input-logins input {
+  outline-color: #ea1179;
+}
+.input-logins label {
+  font-weight: 700;
+  font-size: 15px;
+}
+.overal-logins {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
 }
 
-
-.overal-logins{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 13px;
-   
-    
-  
-}
-
-.input-logins{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.input-logins {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   padding-left: 50px;
- padding-right: 50px;
+  padding-right: 50px;
 }
 
-.login-btns{
-    margin-top: 10px;
-    background-color:#ea1179;
-    border:none;
-    color: white;
-    border-radius: 5px;
-    padding: 10px;
-    width: 100%;
-    font-weight: 600;
-    margin-left: 50px;
-    margin-right: 50px;
-    cursor: pointer; 
+.login-btns {
+  margin-top: 10px;
+  background-color: #ea1179;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  font-weight: 700;
+  height: 40px;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  cursor: pointer;
 }
 
-.btn-login-styles{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.btn-login-styles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.Link-signup-logins{
-background-color: white;
-    color: #ea1179;
-    border: 1px solid #ea1179;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    border-radius: 5px;
-    width: 100%;
-    font-weight: 600;
-    cursor:pointer;
-    margin: 10px 0px;
-    margin-bottom: 30px;
-
+.Link-signup-logins {
+  background-color: white;
+  color: #ea1179;
+  border: 1px solid #ea1179;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px 0px;
+  margin-bottom: 30px;
 }
-
 
 @media (max-width: 768px) {
+  .overal-logins {
+    font-size: 13px;
+  }
 
-    .overal-logins{
-        font-size: 13px;
-    
-        
-
-    }
-
-    .login-covers{
-        background-color: white;
-        width: 100%;
-       
-      
-    }
-   
+  .login-covers {
+    background-color: white;
+    width: 100%;
+  }
 }
